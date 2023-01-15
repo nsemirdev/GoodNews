@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		2D4D2B852973D402002D1A8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4D2B842973D402002D1A8E /* AppDelegate.swift */; };
 		2D4D2B872973D402002D1A8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4D2B862973D402002D1A8E /* SceneDelegate.swift */; };
-		2D4D2B892973D402002D1A8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4D2B882973D402002D1A8E /* ViewController.swift */; };
 		2D4D2B8C2973D402002D1A8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4D2B8A2973D402002D1A8E /* Main.storyboard */; };
 		2D4D2B8E2973D404002D1A8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4D2B8D2973D404002D1A8E /* Assets.xcassets */; };
 		2D4D2B912973D404002D1A8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4D2B8F2973D404002D1A8E /* LaunchScreen.storyboard */; };
+		2D4D2B9A2973D629002D1A8E /* NewsListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4D2B992973D629002D1A8E /* NewsListTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D4D2B812973D402002D1A8E /* GoodNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4D2B842973D402002D1A8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D4D2B862973D402002D1A8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D4D2B882973D402002D1A8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D4D2B8B2973D402002D1A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D4D2B8D2973D404002D1A8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D4D2B902973D404002D1A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D4D2B922973D404002D1A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4D2B992973D629002D1A8E /* NewsListTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,23 @@
 		2D4D2B832973D402002D1A8E /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				2D4D2B982973D607002D1A8E /* Controllers */,
 				2D4D2B842973D402002D1A8E /* AppDelegate.swift */,
 				2D4D2B862973D402002D1A8E /* SceneDelegate.swift */,
-				2D4D2B882973D402002D1A8E /* ViewController.swift */,
 				2D4D2B8A2973D402002D1A8E /* Main.storyboard */,
 				2D4D2B8D2973D404002D1A8E /* Assets.xcassets */,
 				2D4D2B8F2973D404002D1A8E /* LaunchScreen.storyboard */,
 				2D4D2B922973D404002D1A8E /* Info.plist */,
 			);
 			path = GoodNews;
+			sourceTree = "<group>";
+		};
+		2D4D2B982973D607002D1A8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D4D2B992973D629002D1A8E /* NewsListTableVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D4D2B892973D402002D1A8E /* ViewController.swift in Sources */,
 				2D4D2B852973D402002D1A8E /* AppDelegate.swift in Sources */,
+				2D4D2B9A2973D629002D1A8E /* NewsListTableVC.swift in Sources */,
 				2D4D2B872973D402002D1A8E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
